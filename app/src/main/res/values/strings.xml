@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Erazer</string>
+    <string name="btn_submit_expense">Submit</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_cost">Cost</string>
+    <string name="hint_proof_description">Proof Description</string>
+    <string name="title_activity_create_expense">Create Expense</string>
+    <string name="title_activity_expense_details">Expense Details</string>
+    <string name="expense_title_label">Title</string>
+    <string name="expense_description_label">Description</string>
+    <string name="expense_cost_label">Cost</string>
+    <string name="expense_date_label">Date</string>
+    <string name="expense_state_label">State</string>
+    <string name="expense_proof_type_label">Proof type</string>
+    <string name="expense_proof_label">Proof</string>
+    <string name="decline">Decline</string>
+    <string name="approve">Approve</string>
+
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_expenses">Expenses</string>
+    <string name="expenses_error_message">No expenses found</string>
+    <string name="check_network_connection">Please check network connection</string>
+    <string name="blank_field_msg">Please fill this field</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="settle">Settle</string>
+    <string name="proof_type">Proof Type</string>
+
+    <string name="new_expense_notification_title">New expense created by %1$s</string>
+    <string name="new_expense_notification_body">%1$s for N%2$s</string>
+
+    // Proof type Spinner
+    <string-array name="proof_type_array">
+        <item>EMAIL</item>
+        <item>IMAGE</item>
+        <item>TEXT</item>
+    </string-array>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="logout">Logout</string>
+    <string name="file_provider_authority">com.ajibigad.erazer.fileprovider</string>
+</resources>

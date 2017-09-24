@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "338043108315",
+    "firebase_url": "https://erazer-c9ffe.firebaseio.com",
+    "project_id": "erazer-c9ffe",
+    "storage_bucket": "erazer-c9ffe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338043108315:android:95ce95685c361eae",
+        "android_client_info": {
+          "package_name": "com.ajibigad.erazer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338043108315-dei58mji5qd6fl80ccmejd2cfctp6kpd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ajibigad.erazer",
+            "certificate_hash": "ca10ddc972576dc6191aa950e320377959ff04ca"
+          }
+        },
+        {
+          "client_id": "338043108315-0e4p3uk8ah52er2h7p5ei8cg8n8glnf6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8DyCc8epvSPH_ieQEv-tEo8YC8UkIfek"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338043108315-0e4p3uk8ah52er2h7p5ei8cg8n8glnf6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

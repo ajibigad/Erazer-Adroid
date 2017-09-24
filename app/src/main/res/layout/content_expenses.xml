@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ajibigad.erazer.activities.ExpensesActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/expenses_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.ajibigad.erazer.activities.ExpensesActivity"
+        tools:showIn="@layout/activity_expenses"
+        tools:listitem="@layout/expenses_list_item">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <TextView
+        android:id="@+id/tv_error_message_display"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/expenses_error_message"
+        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+        android:fontFamily="monospace"
+        android:visibility="visible" />
+
+    <include layout="@layout/progress_bar" />
+
+</FrameLayout>
+

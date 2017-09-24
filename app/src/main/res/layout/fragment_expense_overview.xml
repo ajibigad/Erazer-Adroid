@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ajibigad.erazer.activities.fragments.ExpenseOverviewFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <GridView
+            android:id="@+id/expense_overview_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:columnWidth="100dp"
+            android:drawSelectorOnTop="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Monthly view"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/monthly_toggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp" />
+
+            <Button
+                android:id="@+id/btn_month_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pick month"
+                android:padding="5dp"
+                style="@style/ButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/progress_bar" />
+</FrameLayout>
